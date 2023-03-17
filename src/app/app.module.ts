@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { IgxIconModule, IgxListModule, IgxButtonModule, IgxRippleModule, IgxAvatarModule, IgxToggleModule, IgxDialogModule, IgxNavbarModule, IgxNavigationDrawerModule } from '@infragistics/igniteui-angular';
+import { IgxIconModule, IgxListModule, IgxButtonModule, IgxRippleModule, IgxCardModule, IgxAvatarModule, IgxToggleModule, IgxDialogModule, IgxNavbarModule, IgxNavigationDrawerModule } from '@infragistics/igniteui-angular';
 import { FormsModule } from '@angular/forms';
 import { MedicationsComponent } from './medications/medications.component';
 import { HealthIndicatorsComponent } from './health-indicators/health-indicators.component';
@@ -33,6 +33,7 @@ import { HttpClientModule } from '@angular/common/http';
     IgxListModule,
     IgxButtonModule,
     IgxRippleModule,
+    IgxCardModule,
     FormsModule,
     IgxCategoryChartModule,
     IgxAvatarModule,
